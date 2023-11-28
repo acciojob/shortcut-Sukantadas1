@@ -1,5 +1,13 @@
 function shortcut(s1, s2) {
-  // your code here
+    // Check if either input string is empty
+  if (str1.length === 0 || str2.length === 0) {
+    return '';
+  }
+
+  // Extract the initial letters of the input strings and concatenate them
+  const initialLetters = str1.charAt(0) + str2.charAt(0);
+
+  return initialLetters;
 }
 
 // Do not change the code below.
